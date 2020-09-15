@@ -1,4 +1,4 @@
-const useInput = (initialValue, validator) => {
+export const useInput = (initialValue, validator) => {
   const [value, setValue] = setState(initialValue);
   const onChange = (event) => {
     const {
