@@ -8,6 +8,10 @@ const App = () => {
     console.log("User is leaving...");
   };
   useBeforeLeave(beforeLeave);
-  return <h1>Hello Nooks</h1>;
+  return (
+    <div className="App">
+      <h1>Hi</h1>
+    </div>
+  );
 };
 ```
